@@ -19,11 +19,11 @@ x=(x.replace('.',', '))
 
 # print(type(x))
 x = x.split(',')
-# print(x)
+print(x)
 # print(type(x))
 
 A = list(x[1:len(x):2])
-# print(A)
+print(A)
 
 
 Max = max(A)
